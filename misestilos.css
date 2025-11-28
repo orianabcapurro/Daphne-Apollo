@@ -521,3 +521,82 @@ p {
 #tab5:checked ~ #content5 {
   display: block;
 }
+
+@media (max-width: 768px) {
+  .page-content {
+    padding-top: 80px;
+  }
+  .hero-section {
+    padding: 1.5rem;
+  }
+  .hero-grid {
+    flex-direction: column;
+    gap: 1.5rem;
+  }
+  .hero-title {
+    font-size: 2.2rem;
+    letter-spacing: 1.5px;
+  }
+  .hero-sub {
+    font-size: 1.1rem;
+  }
+  .hero-img {
+    max-width: 100%;
+    width: 280px;
+  }
+  .section-block {
+    padding: 1.5rem;
+  }
+  .greek-subtitle {
+    font-size: 1.6rem;
+  }
+  .tabs {
+    flex-direction: column;
+    width: 100%;
+  }
+  .tabs label {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem;
+  }
+  .process-img {
+    width: 100%;
+    height: auto;
+  }
+  .team-img {
+    height: 250px;
+  }
+  .greek-btn-primary {
+    width: 100%;
+    text-align: center;
+    padding: 0.8rem 1.5rem;
+  }
+  p {
+    font-size: 1rem;
+  }
+  .greek-game {
+    min-height: 400px;
+  }
+  #game-container iframe {
+    height: 400px !important;
+  }
+}
+
+@media (max-width: 480px) {
+  .hero-title {
+    font-size: 1.8rem;
+  }
+  .hero-sub {
+    font-size: 1rem;
+  }
+  .section-block {
+    padding: 1rem;
+  }
+  .greek-subtitle {
+    font-size: 1.4rem;
+  }
+  .tabs label {
+    font-size: 0.9rem;
+    padding: 0.7rem;
+  }
+}
